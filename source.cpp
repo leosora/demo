@@ -1,10 +1,18 @@
 #include <iostream>
 using namespace std;
+<<<<<<< HEAD
 int tong(int a, int b)
 {
 	return a + b;
 }
 int hieu(int a, int b);
+=======
+int tong(int a, int b);
+int hieu(int a, int b)
+{
+	return a-b;
+}
+>>>>>>> origin/master
 int tich(int a, int b);
 float thuong(int a, int b);
 int main()
@@ -17,6 +25,10 @@ int main()
 	cin >> b;
 	cout << "Chon phep toan (+,-) ";
 	cin >> phepToan;
+	if (phepToan == "+")
+	{
+		cout<< hieu(a,b);
+	}
 	system("pause");
 	return 0;
 }

@@ -5,7 +5,10 @@ int hieu(int a, int b)
 {
 	return a-b;
 }
-int tich(int a, int b);
+int tich(int a, int b)
+{
+	return a*b;
+}
 float thuong(int a, int b);
 int main()
 {
@@ -20,6 +23,10 @@ int main()
 	if (phepToan == "+")
 	{
 		cout<< hieu(a,b);
+	}
+	if (phepToan == "*")
+	{
+		cout<< tich(a,b);
 	}
 	system("pause");
 	return 0;

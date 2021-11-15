@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-<<<<<<< HEAD
+
 int tong(int a, int b)
 {
 	return a + b;
@@ -12,12 +12,9 @@ int hieu(int a, int b)
 	return a-b;
 }
 
-int tich(int a, int b)
-{
-	return a*b;
-}
 
-float thuong(int a, int b);
+
+
 int main()
 {
 	int a, b;
@@ -30,11 +27,11 @@ int main()
 	cin >> phepToan;
 	if (phepToan == "+")
 	{
-		cout<< hieu(a,b);
+		cout<< tong(a,b);
 	}
-	if (phepToan == "*")
+	if (phepToan == "-")
 	{
-		cout<< tich(a,b);
+		cout<< hieu(a,b);
 	}
 	system("pause");
 	return 0;

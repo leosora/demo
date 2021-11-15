@@ -24,8 +24,15 @@ int main()
 	char phepToan;
 	cout << "Nhap so nguyen 1: ";
 	cin >> a;
+	if(a%2==0)
+	{
+		cout<<"a chan";
+	}
+	else
+		cout<<"a le";
 	cout << "Nhap so nguyen 2: ";
 	cin >> b;
+
 	cout << "Chon phep toan (+,-) ";
 	cin >> phepToan;
 	if (phepToan == "+")
